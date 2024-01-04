@@ -1,22 +1,22 @@
 /** @type {import('next-seo').DefaultSeoProps} */
 const defaultSEOConfig = {
-  defaultTitle: "YehezGun OG Generator",
+  defaultTitle: "Xians OG Generator",
   description: "OG Image Generator (using Vercel OG)",
-  canonical: "https://og-v2.yehezgun.com",
+  canonical: "https://vercel-og-beta.vercel.app/",
   openGraph: {
-    url: "https://og-v2.yehezgun.com",
-    title: "YehezGun OG Generator",
+    url: "https://vercel-og-beta.vercel.app/",
+    title: "Xians OG Generator",
     description: "OG Image Generator (using Vercel OG)",
     type: "website",
     images: [
       {
-        url: "https://og-v2.yehezgun.com/api/og?title=YehezGun%20OG&desc=OG%20Image%20Generator%20(using%20Vercel%20OG)&imgUrl=https://www.saashub.com/images/app/service_logos/61/ad5f7085bd71/large.png?1587515045&siteName=og-v2.yehezgun.com",
-        alt: "og-v2.yehezgun.com og-image",
+        url: "https://vercel-og-beta.vercel.app/api/og?title=Xians%20OG&desc=OG%20Image%20Generator%20(using%20Vercel%20OG)&imgUrl=https://www.saashub.com/images/app/service_logos/61/ad5f7085bd71/large.png?1587515045&siteName=vercel-og-beta.vercel.app",
+        alt: "vercel-og-beta.vercel.app og-image",
         width: 800,
         height: 600,
       },
     ],
-    site_name: "yehezgun-og",
+    site_name: "xians-og",
   },
   twitter: {
     handle: "@handle",
