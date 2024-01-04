@@ -55,7 +55,6 @@ export default async function handler(req: NextRequest) {
             tw="font-medium text-xl"
             style={{ fontFamily: "FiraSans-Regular" }}
           >
-            Author: Xians
           </p>
         </div>
       </div>
