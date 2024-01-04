@@ -21,7 +21,7 @@ export default async function handler(req: NextRequest) {
   const firaSansLightData = await firaSansLight;
   const title = searchParams.get("title") ?? "Title";
   const desc = searchParams.get("desc") ?? "Description";
-  const siteName = searchParams.get("siteName") ?? "yehezgun.com";
+  const siteName = searchParams.get("siteName") ?? "xians.su";
   const imgUrl = searchParams.get("imgUrl") ?? baseImageURL;
   return new ImageResponse(
     (
